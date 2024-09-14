@@ -1,10 +1,10 @@
 ---
 layout: author
 photo: /assets/img/uploads/profile.png
-name: mranderson
-display_name: Mr. Anderson
+name: SecurityResearcher
+display_name: Security Researcher
 position: The One
-bio: Bulletproof hacker passionate about leather clothes.
+bio: AI enabled hacker, breaking the bounds of the internet.
 github_username: LeakedIntel
 facebook_username: facebook_username
 twitter_username: twitter_username
