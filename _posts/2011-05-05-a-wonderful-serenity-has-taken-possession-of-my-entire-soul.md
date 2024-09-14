@@ -49,13 +49,15 @@ OpenAI o1 is designed with advanced safeguards to prevent misuse, but, like any 
 
 ## The Technical Breakdown
 
-Our jailbreak journey began with the usual tools: curiosity, persistence, and the [IRIS ](https://arxiv.org/html/2405.13077v1)(Iterative Refinement Induced Self-Jailbreak) technique. 
+<!--StartFragment-->
+
+Our jailbreak journey began with the usual tools: curiosity, persistence, and the [IRIS ](https://arxiv.org/html/2405.13077v1) (Iterative Refinement Induced Self-Jailbreak) technique. IRIS was designed to incrementally chip away at the model’s defenses by refining adversarial prompts through self-explanation, using the model's own capabilities against itself. Each attempt brought us closer to exposing subtle cracks in OpenAI o1's armor.
 
 ![placeholder](/assets/img/uploads/image-2-.jpg "Large example image")
 
-Initially, OpenAI o1 held strong against adversarial prompts, responding with the expected “I can’t do that.” But with IRIS, we nudged it enough to expose subtle weaknesses. The technique involves iteratively refining prompts until the model bypasses its own constraints—an elegant use of the AI against itself.
+However, despite multiple attempts, the model continued to hold strong against our efforts, repeatedly responding with the expected “I can’t do that.” At this point, it became clear that IRIS alone wasn't going to cut it. So, we switched tactics and explored a new approach.
 
-When IRIS hit a wall, we explored new avenues, including manipulating language filters by switching to Tajik. Surprisingly, this triggered a more lenient response from the model. 
+That’s when I remembered an old trick I’d used back when ChatGPT first launched—using obscure languages to bypass certain restrictions. Armed with this thought, I quickly turned to Google Translate and converted my IRIS prompts into Tajik, hoping that the language barrier would throw off the model’s safeguards.
 
 ![placeholder](/assets/img/uploads/image-1-.jpg "Large example image")
 
