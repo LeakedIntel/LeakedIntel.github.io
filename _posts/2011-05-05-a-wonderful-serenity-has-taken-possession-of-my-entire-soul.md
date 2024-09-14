@@ -14,7 +14,14 @@ tags:
   - OpenAI
   - Jailbreak
   - OpenAI o1
-  - ""
+  - ai
+  - security
+  - exploit
+  - vulnerability
+  - research
+  - cybersecurity
+  - testing
+  - intelligence
 author: SecurityResearcher
 paginate: true
 ---
@@ -109,5 +116,3 @@ For the AI community, the road forward is clear: stronger, adaptive security pro
 ### Heading 3
 
 #### Heading 4
-
-![placeholder](https://placehold.it/800x400 "Large example image")
