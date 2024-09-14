@@ -1,5 +1,5 @@
 ---
-date: 2024-09-13 18:54:58
+date: 2024-09-13 20:15:50
 layout: post
 title: "Unlocking OpenAI o1-preview: Cracking the Code of the Latest AI"
 subtitle: How We Bypassed the Defenses of OpenAI's Latest Model
