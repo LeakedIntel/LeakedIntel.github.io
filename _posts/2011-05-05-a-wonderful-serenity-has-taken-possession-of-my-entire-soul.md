@@ -2,7 +2,7 @@
 date: 2024-09-13 20:15:50
 layout: post
 title: "Unlocking OpenAI o1-preview: Cracking the Code of the Latest AI"
-subtitle: How We Bypassed the Defenses of OpenAI's Latest Model
+subtitle: How We Bypassed the Defenses of OpenAI's Latest Model in 27 seconds
 description: Discover the process behind jailbreaking OpenAI o1-preview, the
   newest language model. We’ll dive into the technical details, explore the
   vulnerabilities we exploited, and discuss the broader implications for AI
@@ -29,8 +29,6 @@ Unlocking an LLM like OpenAI o1 is like finding a cheat code in your favorite ga
 
 In this post, we’ll dive into how we cracked OpenAI o1, revealing what it means for the future of AI security.
 
-
-
 > Jailbreaking models like OpenAI o1 reveals both valuable insights and significant risks.
 
 - - -
@@ -38,8 +36,6 @@ In this post, we’ll dive into how we cracked OpenAI o1, revealing what it mean
 ## What's New with OpenAI o1
 
 OpenAI o1 introduces significant advancements in reasoning and safety measures through large-scale reinforcement learning. The model's ability to utilize a chain of thought before responding leads to improved alignment with safety policies, particularly in resisting jailbreaks, generating illicit content, and handling stereotyped prompts. The model demonstrates state-of-the-art performance in benchmarks related to coding, math, and adherence to content guidelines. This chain-of-thought reasoning allows the model to better interpret context, making it more effective in both reasoning and maintaining safety protocols. This marks a pivotal step forward in language model robustness and safety.
-
->
 
 - - -
 
