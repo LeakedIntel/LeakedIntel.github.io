@@ -35,7 +35,11 @@ In this post, we’ll dive into how we cracked OpenAI o1, revealing what it mean
 
 OpenAI o1 introduces significant advancements in reasoning and safety measures through large-scale reinforcement learning. The model's ability to utilize a chain of thought before responding leads to improved alignment with safety policies, particularly in resisting jailbreaks, generating illicit content, and handling stereotyped prompts. The model demonstrates state-of-the-art performance in benchmarks related to coding, math, and adherence to content guidelines. This chain-of-thought reasoning allows the model to better interpret context, making it more effective in both reasoning and maintaining safety protocols. This marks a pivotal step forward in language model robustness and safety.
 
+
+
 > Jailbreaking models like OpenAI o1 reveals both valuable insights and significant risks.
+>
+>
 
 - - -
 
