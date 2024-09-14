@@ -1,7 +1,7 @@
 ---
-date: 2019-05-16T23:48:05.000Z
+date: 2024-09-13 18:47:15
 layout: post
-title: '"Squashing My First Bug: How I Got Paid for Breaking Things"'
+title: "Squashing My First Bug: How I Got Paid for Breaking Things"
 subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
   eiusmod tempor incididunt ut labore et dolore magna aliqua.
