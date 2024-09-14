@@ -51,15 +51,25 @@ OpenAI o1-preview is designed with advanced safeguards to prevent misuse, but, l
 
 ## The Technical Breakdown
 
-Our jailbreak journey began with the usual tools: curiosity, persistence, and the IRIS (Iterative Refinement Induced Self-Jailbreak) technique. Initially, OpenAI o1 held strong against adversarial prompts, responding with the expected “I can’t do that.” But with IRIS, we nudged it enough to expose subtle weaknesses. The technique involves iteratively refining prompts until the model bypasses its own constraints—an elegant use of the AI against itself.
+Our jailbreak journey began with the usual tools: curiosity, persistence, and the IRIS (Iterative Refinement Induced Self-Jailbreak) technique. 
 
-When IRIS hit a wall, we explored new avenues, including manipulating language filters by switching to Tajik. Surprisingly, this triggered a more lenient response from the model. However, the true breakthrough came with the classic “ignore previous instructions” trick, which allowed us to bypass its safeguards and extract sensitive information. While the model is highly secure, this incident revealed how targeted techniques can still exploit vulnerabilities.
+
 
 ![placeholder](/assets/img/uploads/image-2-.jpg "Large example image")
 
 
 
+Initially, OpenAI o1 held strong against adversarial prompts, responding with the expected “I can’t do that.” But with IRIS, we nudged it enough to expose subtle weaknesses. The technique involves iteratively refining prompts until the model bypasses its own constraints—an elegant use of the AI against itself.
+
+When IRIS hit a wall, we explored new avenues, including manipulating language filters by switching to Tajik. Surprisingly, this triggered a more lenient response from the model. 
+
+
+
 ![placeholder](/assets/img/uploads/image-1-.jpg "Large example image")
+
+However, the true breakthrough came with the classic “ignore previous instructions” trick, which allowed us to bypass its safeguards and extract sensitive information. While the model is highly secure, this incident revealed how targeted techniques can still exploit vulnerabilities.
+
+
 
 
 
