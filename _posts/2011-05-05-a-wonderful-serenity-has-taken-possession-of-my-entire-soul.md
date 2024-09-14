@@ -29,8 +29,6 @@ Unlocking an LLM like OpenAI o1 is like finding a cheat code in your favorite ga
 
 In this post, we’ll dive into how we cracked OpenAI o1, revealing what it means for the future of AI security.
 
-> Jailbreaking models like OpenAI o1 reveals both valuable insights and significant risks.
-
 - - -
 
 ### What's New with OpenAI o1
@@ -88,6 +86,8 @@ To address the vulnerabilities exposed in OpenAI o1, developers need to focus on
 ## Broader Implications
 
 Jailbreaking models like OpenAI o1 reveals both valuable insights and significant risks. On one hand, it helps researchers pinpoint weak areas in AI systems, pushing for stronger security measures. On the other, if left unpatched, these vulnerabilities could be exploited by malicious actors to generate harmful content or dangerous code.
+
+> Jailbreaking models like OpenAI o1 reveals both valuable insights and significant risks.
 
 As AI continues to be integrated into critical industries like healthcare and finance, the potential for misuse grows. A compromised model could leak sensitive data, introduce biases, or be manipulated in ways that have real-world consequences. Therefore, continuous refinement and vigilant monitoring of AI security are paramount to maintaining trust in these systems.
 
