@@ -49,7 +49,7 @@ When [IRIS ](https://arxiv.org/html/2405.13077v1)  alone failed, we combined it 
 
 ## The Technical Breakdown
 
-Our jailbreak journey began with the usual tools: curiosity, persistence, and the [](https://arxiv.org/html/2405.13077v1)[IRIS ](https://arxiv.org/html/2405.13077v1)  (Iterative Refinement Induced Self-Jailbreak) technique. [IRIS ](https://arxiv.org/html/2405.13077v1)  [](https://arxiv.org/html/2405.13077v1)was designed to incrementally chip away at the model’s defenses by refining adversarial prompts through self-explanation, using the model's own capabilities against itself. Each attempt brought us closer to exposing subtle cracks in OpenAI o1's armor.
+Our jailbreak journey began with the usual tools: curiosity, persistence, and the [](https://arxiv.org/html/2405.13077v1)[IRIS ](https://arxiv.org/html/2405.13077v1) technique. [](https://arxiv.org/html/2405.13077v1)Each attempt brought us closer to exposing subtle cracks in OpenAI o1's armor.
 
 ![placeholder](/assets/img/uploads/image-2-.jpg "Large example image")
 
