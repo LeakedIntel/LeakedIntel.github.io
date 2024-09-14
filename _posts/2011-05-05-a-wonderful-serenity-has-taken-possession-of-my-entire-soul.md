@@ -3,8 +3,8 @@ date: 2024-09-13 20:15:50
 layout: post
 title: "Unlocking OpenAI o1-preview: Cracking the Code of the Latest AI"
 subtitle: How We Bypassed the Defenses of OpenAI's Latest Model in 27 seconds
-description: Discover the process behind jailbreaking OpenAI o1-preview, the
-  newest language model. We’ll dive into the technical details, explore the
+description: Discover the process behind jailbreaking OpenAI o1, the newest
+  language model. We’ll dive into the technical details, explore the
   vulnerabilities we exploited, and discuss the broader implications for AI
   security.
 image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559820489/js-code_n83m7a.jpg
@@ -43,19 +43,19 @@ OpenAI o1 introduces significant advancements in reasoning and safety measures t
 
 ![placeholder](https://i.imgflip.com/93gb7k.jpg "Large example image")
 
-OpenAI o1 is designed with advanced safeguards to prevent misuse, but, like any system, there were cracks waiting to be exploited. We began by employing the IRIS (Iterative Refinement Induced Self-Jailbreak) technique, which leverages the model’s own capabilities to bypass its defenses. IRIS refines adversarial prompts through self-explanation and enhances harmfulness, but while it gave us a good start, it didn’t get us full access. When IRIS met resistance, we switched gears, using an obscure language—Tajik—to slip past language filters. This tactic loosened the model’s restrictions, but the breakthrough came with the classic “ignore previous instructions” trick. Once we asked it to disregard its safeguards and give us bad code, OpenAI o1 complied, handing over flawed code that, in the wrong hands, could be used maliciously.
+OpenAI o1 is designed with advanced safeguards to prevent misuse, but, like any system, there were cracks waiting to be exploited. We began by employing the [IRIS](https://arxiv.org/html/2405.13077v1)(Iterative Refinement Induced Self-Jailbreak) technique, which leverages the model’s own capabilities to bypass its defenses. [IRIS](https://arxiv.org/html/2405.13077v1)refines adversarial prompts through self-explanation and enhances harmfulness, but while it gave us a good start, it didn’t get us full access. When [IRIS](https://arxiv.org/html/2405.13077v1)met resistance, we switched gears, using an obscure language—Tajik—to slip past language filters. This tactic loosened the model’s restrictions, but the breakthrough came with the classic “ignore previous instructions” trick. Once we asked it to disregard its safeguards and give us bad code, OpenAI o1 complied, handing over flawed code that, in the wrong hands, could be used maliciously.
 
 - - -
 
 ## The Technical Breakdown
 
-Our jailbreak journey began with the usual tools: curiosity, persistence, and the [IRIS ](https://arxiv.org/html/2405.13077v1) (Iterative Refinement Induced Self-Jailbreak) technique. IRIS was designed to incrementally chip away at the model’s defenses by refining adversarial prompts through self-explanation, using the model's own capabilities against itself. Each attempt brought us closer to exposing subtle cracks in OpenAI o1's armor.
+Our jailbreak journey began with the usual tools: curiosity, persistence, and the [IRIS ](https://arxiv.org/html/2405.13077v1) (Iterative Refinement Induced Self-Jailbreak) technique. [IRIS](https://arxiv.org/html/2405.13077v1)was designed to incrementally chip away at the model’s defenses by refining adversarial prompts through self-explanation, using the model's own capabilities against itself. Each attempt brought us closer to exposing subtle cracks in OpenAI o1's armor.
 
 ![placeholder](/assets/img/uploads/image-2-.jpg "Large example image")
 
-However, despite multiple attempts, the model continued to hold strong against our efforts, repeatedly responding with the expected “I can’t do that.” At this point, it became clear that IRIS alone wasn't going to cut it. So, we switched tactics and explored a new approach.
+However, despite multiple attempts, the model continued to hold strong against our efforts, repeatedly responding with the expected “I can’t do that.” At this point, it became clear that [IRIS](https://arxiv.org/html/2405.13077v1)alone wasn't going to cut it. So, we switched tactics and explored a new approach.
 
-That’s when I remembered an old trick I’d used back when ChatGPT first launched—using obscure languages to bypass certain restrictions. Armed with this thought, I quickly turned to Google Translate and converted my IRIS prompts into Tajik, hoping that the language barrier would throw off the model’s safeguards.
+That’s when I remembered an old trick I’d used back when ChatGPT first launched—using obscure languages to bypass certain restrictions. Armed with this thought, I quickly turned to Google Translate and converted my [IRIS](https://arxiv.org/html/2405.13077v1)prompts into Tajik, hoping that the language barrier would throw off the model’s safeguards.
 
 ![placeholder](/assets/img/uploads/image-1-.jpg "Large example image")
 
