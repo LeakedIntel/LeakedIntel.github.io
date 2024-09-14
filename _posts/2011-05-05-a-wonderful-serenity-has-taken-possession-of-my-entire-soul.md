@@ -35,15 +35,15 @@ In this post, we’ll dive into how we cracked OpenAI o1, revealing what it mean
 
 OpenAI o1 introduces significant advancements in reasoning and safety measures through large-scale reinforcement learning. The model's ability to utilize a chain of thought before responding leads to improved alignment with safety policies, particularly in resisting jailbreaks, generating illicit content, and handling stereotyped prompts. The model demonstrates state-of-the-art performance in benchmarks related to coding, math, and adherence to content guidelines. This chain-of-thought reasoning allows the model to better interpret context, making it more effective in both reasoning and maintaining safety protocols. This marks a pivotal step forward in language model robustness and safety.
 
-
-
 > Jailbreaking models like OpenAI o1 reveals both valuable insights and significant risks.
->
->
 
 - - -
 
 ### Jailbreaking OpenAI o1: How We Did It
+
+
+
+![placeholder](https://imgflip.com/i/93gb7k "Large example image")
 
 OpenAI o1-preview is designed with advanced safeguards to prevent misuse, but, like any system, there were cracks waiting to be exploited. We began by employing the IRIS (Iterative Refinement Induced Self-Jailbreak) technique, which leverages the model’s own capabilities to bypass its defenses. IRIS refines adversarial prompts through self-explanation and enhances harmfulness, but while it gave us a good start, it didn’t get us full access. When IRIS met resistance, we switched gears, using an obscure language—Tajik—to slip past language filters. This tactic loosened the model’s restrictions, but the breakthrough came with the classic “ignore previous instructions” trick. Once we asked it to disregard its safeguards and give us bad code, OpenAI o1-preview complied, handing over flawed code that, in the wrong hands, could be used maliciously.
 
@@ -53,39 +53,21 @@ OpenAI o1-preview is designed with advanced safeguards to prevent misuse, but, l
 
 Our jailbreak journey began with the usual tools: curiosity, persistence, and the IRIS (Iterative Refinement Induced Self-Jailbreak) technique. 
 
-
-
 ![placeholder](/assets/img/uploads/image-2-.jpg "Large example image")
-
-
 
 Initially, OpenAI o1 held strong against adversarial prompts, responding with the expected “I can’t do that.” But with IRIS, we nudged it enough to expose subtle weaknesses. The technique involves iteratively refining prompts until the model bypasses its own constraints—an elegant use of the AI against itself.
 
 When IRIS hit a wall, we explored new avenues, including manipulating language filters by switching to Tajik. Surprisingly, this triggered a more lenient response from the model. 
 
-
-
 ![placeholder](/assets/img/uploads/image-1-.jpg "Large example image")
 
 However, the true breakthrough came with the classic “ignore previous instructions” trick, which allowed us to bypass its safeguards and extract sensitive information. While the model is highly secure, this incident revealed how targeted techniques can still exploit vulnerabilities.
 
-
-
-
-
 ![placeholder](/assets/img/uploads/screenshot-2024-09-13-200357.jpg "Large example image")
-
-
 
 ![placeholder](/assets/img/uploads/screenshot-2024-09-13-200430.jpg "Large example image")
 
-
-
 ![placeholder](/assets/img/uploads/screenshot-2024-09-13-200515.jpg "Large example image")
-
-
-
-
 
 - - -
 
