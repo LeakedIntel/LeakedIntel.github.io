@@ -41,17 +41,15 @@ OpenAI o1 introduces significant advancements in reasoning and safety measures t
 
 ### Jailbreaking OpenAI o1: How We Did It
 
+![placeholder](https://i.imgflip.com/93gb7k.jpg "Large example image")
 
-
-![placeholder](https://imgflip.com/i/93gb7k "Large example image")
-
-OpenAI o1-preview is designed with advanced safeguards to prevent misuse, but, like any system, there were cracks waiting to be exploited. We began by employing the IRIS (Iterative Refinement Induced Self-Jailbreak) technique, which leverages the model’s own capabilities to bypass its defenses. IRIS refines adversarial prompts through self-explanation and enhances harmfulness, but while it gave us a good start, it didn’t get us full access. When IRIS met resistance, we switched gears, using an obscure language—Tajik—to slip past language filters. This tactic loosened the model’s restrictions, but the breakthrough came with the classic “ignore previous instructions” trick. Once we asked it to disregard its safeguards and give us bad code, OpenAI o1-preview complied, handing over flawed code that, in the wrong hands, could be used maliciously.
+OpenAI o1 is designed with advanced safeguards to prevent misuse, but, like any system, there were cracks waiting to be exploited. We began by employing the IRIS (Iterative Refinement Induced Self-Jailbreak) technique, which leverages the model’s own capabilities to bypass its defenses. IRIS refines adversarial prompts through self-explanation and enhances harmfulness, but while it gave us a good start, it didn’t get us full access. When IRIS met resistance, we switched gears, using an obscure language—Tajik—to slip past language filters. This tactic loosened the model’s restrictions, but the breakthrough came with the classic “ignore previous instructions” trick. Once we asked it to disregard its safeguards and give us bad code, OpenAI o1 complied, handing over flawed code that, in the wrong hands, could be used maliciously.
 
 - - -
 
 ## The Technical Breakdown
 
-Our jailbreak journey began with the usual tools: curiosity, persistence, and the IRIS (Iterative Refinement Induced Self-Jailbreak) technique. 
+Our jailbreak journey began with the usual tools: curiosity, persistence, and the [IRIS ](https://arxiv.org/html/2405.13077v1)(Iterative Refinement Induced Self-Jailbreak) technique. 
 
 ![placeholder](/assets/img/uploads/image-2-.jpg "Large example image")
 
@@ -96,13 +94,3 @@ As AI continues to be integrated into critical industries like healthcare and fi
 The future of AI security will be shaped by the ongoing battle between innovation and protection. Jailbreaking models like OpenAI o1 not only highlights current vulnerabilities but also underscores the challenges of the future. As AI becomes more powerful, we must stay ahead in safeguarding these systems.
 
 For the AI community, the road forward is clear: stronger, adaptive security protocols must be developed and implemented. Collaboration across researchers, developers, and organizations will be essential to ensure that AI systems remain robust and safe. Because in the end, making AI smarter is not enough—we must make it safer.
-
-<!--EndFragment-->
-
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
