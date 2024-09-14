@@ -2,7 +2,7 @@
 layout: author
 photo: /assets/img/uploads/profile.png
 name: SecurityResearcher
-display_name: Security Researcher
+display_name: SecurityResearcher
 position: The One
 bio: AI enabled hacker, breaking the bounds of the internet.
 github_username: LeakedIntel
