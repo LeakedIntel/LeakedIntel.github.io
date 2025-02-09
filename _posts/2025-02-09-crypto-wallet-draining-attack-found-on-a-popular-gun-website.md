@@ -2,7 +2,7 @@
 date: 2025-02-08 21:16:15
 layout: post
 title: Crypto Wallet Draining Attack Found on a Popular Gun Website
-subtitle: alicious JavaScript Hidden in a Smart Contract
+subtitle: Malicious JavaScript Hidden in a Smart Contract
 description: A recent investigation uncovered a crypto wallet-draining attack
   embedded in a popular firearm website, using smart contracts to store and
   execute malicious JavaScript. This method bypasses traditional security
