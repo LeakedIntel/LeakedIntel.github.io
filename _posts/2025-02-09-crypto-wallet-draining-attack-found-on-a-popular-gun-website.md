@@ -8,6 +8,7 @@ description: A recent investigation uncovered a crypto wallet-draining attack
   execute malicious JavaScript. This method bypasses traditional security
   defenses, putting Web3 users at risk. Here’s how the attack works and how to
   stay protected.
+image: /assets/img/uploads/1047ae02-1f42-4602-bd2f-8b0bbd7d8a33.webp
 category: blog
 author: SecurityResearcher
 paginate: false
