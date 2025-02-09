@@ -26,7 +26,7 @@ One of my **absolute favorite** things to do these days is listen to cybersecuri
 
 ### **The Bug That Changed Everything**
 
-One day, while deep into a podcast, I heard someone mention a **path interception bug** —a sneaky little flaw that could lead to **privilege escalation and persistence**. They described in detail how the bug worked, what to look for, and how you could detect it.
+One day, while deep into a podcast, I heard someone mention a **path interception bug**  a sneaky little flaw that could lead to **privilege escalation and persistence**. They described in detail how the bug worked, what to look for, and how you could detect it.
 
 And that was it. **Curiosity activated.**
 
@@ -36,7 +36,7 @@ I couldn’t wait to see if I could find something like this in the real world. 
 
 ### **Testing It Out (a.k.a. Breaking My Work Computer for Science)**
 
-Armed with my newfound knowledge, I decided to try it **on my own work PC** —ethically, of course. I followed the steps they described, ran a few tests, and...
+Armed with my newfound knowledge, I decided to try it **on my own work PC**  ethically, of course. I followed the steps they described, ran a few tests, and...
 
 💥 **Boom. Security concern detected.** 💥
 
