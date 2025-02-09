@@ -2,11 +2,13 @@
 date: 2024-09-13 18:47:15
 layout: post
 title: "Squashing My First Bug: How I Got Paid for Breaking Things"
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-  eiusmod tempor incididunt ut labore et dolore magna aliqua.
-image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559821647/theme6_qeeojf.jpg
-optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559821647/theme6_qeeojf.jpg
+subtitle: ""
+description: I never thought I was skilled enough for bug bounties until I
+  accidentally found a critical security flaw on my work computer. With a little
+  curiosity, a podcast, and a quick bug report, I earned my first $1,000 bounty.
+  You don’t need to be an elite hacker just willing to learn and try. 🚀
+image: /assets/img/uploads/c2c4350e-e7c3-487f-bdea-1cf71bb68c66.webp
+optimized_image: /assets/img/uploads/c2c4350e-e7c3-487f-bdea-1cf71bb68c66.webp
 category: blog
 tags:
   - welcome
@@ -14,114 +16,71 @@ tags:
 author: mranderson
 paginate: true
 ---
-Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+<!--StartFragment-->
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+I've been into cybersecurity for as long as I can remember. Back when it wasn’t even called **cybersecurity**, I was that kid poking around computers, breaking things (sometimes on purpose, sometimes not), and figuring out how to put them back together usually with more knowledge and a slightly higher risk tolerance.
 
-Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+One of my **absolute favorite** things to do these days is listen to cybersecurity podcasts. There’s something oddly satisfying about hearing stories of hackers, exploits, and vulnerabilities while sipping my morning coffee. It’s like true crime, but for tech nerds.
 
-## Inline HTML elements
+- - -
 
-HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
+### **The Bug That Changed Everything**
 
-* **To bold text**, use `<strong>`.
-* *To italicize text*, use `<em>`.
-* Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use `<abbr>`, with an optional `title` attribute for the full phrase.
-* Citations, like <cite>&mdash; Thiago Rossener</cite>, should use `<cite>`.
-* <del>Deleted</del> text should use `<del>` and <ins>inserted</ins> text should use `<ins>`.
-* Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
+One day, while deep into a podcast, I heard someone mention a **path interception bug** —a sneaky little flaw that could lead to **privilege escalation and persistence**. They described in detail how the bug worked, what to look for, and how you could detect it.
 
-Most of these elements are styled by browsers with few modifications on our part.
+And that was it. **Curiosity activated.**
 
-# Heading 1
+I couldn’t wait to see if I could find something like this in the real world. Not in some controlled lab, not in a CTF, but in **actual, functioning software.**
 
-## Heading 2
+- - -
 
-### Heading 3
+### **Testing It Out (a.k.a. Breaking My Work Computer for Science)**
 
-#### Heading 4
+Armed with my newfound knowledge, I decided to try it **on my own work PC** —ethically, of course. I followed the steps they described, ran a few tests, and...
 
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+💥 **Boom. Security concern detected.** 💥
 
---page-break--
+At first, I had that moment of disbelief. **Wait. Did I actually just find something?** I mean, sure, I’ve always loved security, but wasn’t this the kind of thing only *super elite* hackers did? The kind of people who wear hoodies in dark rooms and type really fast while dramatic music plays in the background?
 
-## Code
+Surely, I wasn’t **one of those people.**
 
-Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
+But the evidence was staring me in the face: I had **found a legitimate security issue**.
 
-```js
-// Example can be run directly in your JavaScript console
+- - -
 
-// Create a function that takes two arguments and returns the sum of those arguments
-var adder = new Function("a", "b", "return a + b");
+### **From Discovery to Bug Bounty**
 
-// Call the function
-adder(2, 6);
-// > 8
-```
+I had heard about **bug bounties** from my many hours of podcast listening, but I always thought they were reserved for **hackers with years of experience, custom-built toolkits, and a secret handshake only the elite knew.**
 
-Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
+Turns out, the only real requirement is **curiosity and willingness to try**.
 
-## Lists
+So, I did some **quick research** on how to write a bug report, took a deep breath, and sent an email off to the company.
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+A few days later, I got a response:
 
-* Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-* Donec id elit non mi porta gravida at eget metus.
-* Nulla vitae elit libero, a pharetra augue.
+**“This is indeed a critical security vulnerability. We’ve confirmed the issue, and we’d like to reward you with $1,000.”**
 
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
+I just sat there, staring at the email. **I actually did it.**
 
-1. Vestibulum id ligula porta felis euismod semper.
-2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-3. Maecenas sed diam eget risus varius blandit sit amet non magna.
+- - -
 
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
+### **What I Learned (Besides That Bug Bounties Are Awesome)**
 
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
+The biggest lesson I took away from this?
 
-## Images
+👉 **You don’t need to be an “elite hacker” to find and report security flaws.**\
+👉 **You don’t need years of experience.**\
+👉 **You just need curiosity, a willingness to learn, and the courage to try.**
 
-Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
+If I had let imposter syndrome win if I had convinced myself that I wasn’t “good enough” to report a vulnerability I never would have had this experience.
 
-![placeholder](https://placehold.it/800x400 "Large example image") ![placeholder](https://placehold.it/400x200 "Medium example image") ![placeholder](https://placehold.it/200x200 "Small example image")
+So if you’re new to cybersecurity, or just starting to dip your toes into bug bounty hunting, **keep going**. Be **curious**. Be **willing to learn**. And most importantly, **don’t be afraid to break things (ethically, of course).**
 
-## Tables
+Because sometimes, **breaking things the right way gets you paid.** 💰💻
 
-Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+- - -
 
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Upvotes</th>
-      <th>Downvotes</th>
-    </tr>
-  </thead>
-  <tfoot>
-    <tr>
-      <td>Totals</td>
-      <td>21</td>
-      <td>23</td>
-    </tr>
-  </tfoot>
-  <tbody>
-    <tr>
-      <td>Alice</td>
-      <td>10</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <td>Bob</td>
-      <td>4</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>Charlie</td>
-      <td>7</td>
-      <td>9</td>
-    </tr>
-  </tbody>
-</table>
+🔥 **Thinking about getting into bug bounties?**\
+Drop a comment if you’ve ever found a vulnerability, or if you’re on the fence about trying bug bounties yourself! 🚀
 
-Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
+<!--EndFragment-->
