@@ -8,6 +8,7 @@ description: Attackers are now leveraging immutable smart contracts to store and
   distribute malicious JavaScript, making malware decentralized, persistent, and
   nearly impossible to remove. This article explores how this tactic works, why
   it’s dangerous, and how to defend against it.
+image: /assets/img/uploads/06b5c121-be3e-49f7-a305-05a23f1d4ec9.webp
 category: blog
 author: SecurityResearcher
 paginate: false
